@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WotPan - Simple. Secure. Reliable messaging.</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/logo.jpeg"
+      type="image/x-icon"
+      style="border-radius: 8px"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">
+            <div style="display: flex">
+              <img
+                src="assets/logo.jpeg"
+                alt="WotPan Logo"
+                style="height: 40px; border-radius: 8px"
+              />
+              <span
+                style="font-weight: 700; font-size: 1.5rem; margin-left: 0.5rem"
+                >WotPan</span
+              >
+            </div>
+          </a>
+
+          <ul class="nav-menu">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#testimonials">About</a></li>
+            <li><a href="#footer">Support</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <a href="#download" class="btn btn-primary">Download</a>
+          </div>
+
+          <div
+            class="hamburger"
+            id="hamburger"
+            aria-label="Open menu"
+            role="button"
+            tabindex="0"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+
+        <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#testimonials">About</a></li>
+            <li><a href="#footer">Support</a></li>
+          </ul>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap">
+            <a href="#download" class="btn btn-primary">Download</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>Simple. Secure. Reliable messaging.</h1>
+              <p>
+                Connect with friends and family instantly with end-to-end
+                encrypted messages that keep your conversations private and
+                secure.
+              </p>
+              <div class="hero-actions">
+                <a
+                  href="#download"
+                  class="btn btn-primary pulse"
+                  aria-label="Get started - Download"
+                  >Get Started</a
+                >
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+              </div>
+            </div>
+            <div class="phone-mockup" aria-hidden="true">
+              <div class="phone">
+                <div class="phone-screen">
+                  <img
+                    src="assets/screenshot.png"
+                    alt="WotPan App Screenshot"
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      display: block;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container">
+          <h2>Why Choose WotPan?</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🔒</div>
+              <h3>End-to-End Encryption</h3>
+              <p>
+                Your messages are protected with advanced encryption technology,
+                ensuring only you and your contacts can read them.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon" aria-hidden="true">⚡</div>
+              <h3>Lightning Fast</h3>
+              <p>
+                Send messages, photos, and files instantly to anyone, anywhere
+                in the world with our optimized delivery system.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🌐</div>
+              <h3>Cross-Platform</h3>
+              <p>
+                Use WotPan on your phone, tablet, or computer. Your
+                conversations sync seamlessly across all devices.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon" aria-hidden="true">👥</div>
+              <h3>Group Chats</h3>
+              <p>
+                Create group chats with up to 256 participants. Share moments
+                with family, friends, and colleagues effortlessly.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon" aria-hidden="true">📞</div>
+              <h3>Voice & Video Calls</h3>
+              <p>
+                Make crystal-clear voice and video calls to your contacts for
+                free, no matter where they are in the world.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🆓</div>
+              <h3>Always Free</h3>
+              <p>
+                WotPan is completely free to use with no subscription fees,
+                hidden costs, or premium tiers to worry about.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <div class="container">
+          <h2>Get WotPan Today</h2>
+          <p>
+            Available for all your devices. Download now and start chatting
+            securely.
+          </p>
+          <div class="download-buttons">
+            <a
+              href="#"
+              class="store-btn"
+              id="app-store-btn"
+              aria-label="Download on the App Store"
+            >
+              <span class="store-icon" aria-hidden="true">🍎</span>
+              <div>
+                <div style="font-size: 0.8rem">Download on the</div>
+                <div style="font-weight: bold">App Store</div>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="store-btn"
+              id="play-store-btn"
+              aria-label="Get it on Google Play"
+            >
+              <span class="store-icon" aria-hidden="true">📱</span>
+              <div>
+                <div style="font-size: 0.8rem">Get it on</div>
+                <div style="font-weight: bold">Google Play</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <h2>Trusted by Millions</h2>
+          <div class="testimonial-grid">
+            <div class="testimonial">
+              <p>
+                "WotPan has become essential for staying in touch with my
+                family. The interface is intuitive and I love the privacy
+                features."
+              </p>
+              <div class="testimonial-author">- Sarah Johnson</div>
+            </div>
+            <div class="testimonial">
+              <p>
+                "As a business owner, I need secure communication. WotPan
+                delivers on both security and usability perfectly."
+              </p>
+              <div class="testimonial-author">- Michael Chen</div>
+            </div>
+            <div class="testimonial">
+              <p>
+                "The group chat features make coordinating with my team so much
+                easier. Plus, the video calls are crystal clear."
+              </p>
+              <div class="testimonial-author">- Emma Rodriguez</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section footer-logo-section">
+            <a href="#" class="logo footer-logo">
+              <div style="display: flex; align-items: center">
+                <img
+                  src="assets/logo.jpeg"
+                  alt="WotPan Logo"
+                  style="height: 40px; border-radius: 8px"
+                />
+                <span
+                  style="
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    margin-left: 0.5rem;
+                    color: var(--white);
+                  "
+                  >WotPan</span
+                >
+              </div>
+            </a>
+          </div>
+          <div class="footer-section">
+            <h3>Product</h3>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">Business</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">System Status</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms and Conditions</a></li>
+              <li><a href="cookie.html">Cookie Policy</a></li>
+              <li><a href="dmca.html">DMCA</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+          "
+        >
+          <div class="socials" aria-label="WotPan social links">
+            <a
+              href="https://youtube.com/@wotpan"
+              target="_blank"
+              rel="noopener"
+              aria-label="YouTube"
+              >YouTube</a
+            >
+            <a
+              href="https://www.instagram.com/wotpan"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              >Instagram</a
+            >
+            <a
+              href="https://www.facebook.com/wotpanapp"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              >Facebook</a
+            >
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 WotPan. All rights reserved.</p>
+          <a href="#download" class="btn btn-primary btn-footer-download"
+            >Download</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
